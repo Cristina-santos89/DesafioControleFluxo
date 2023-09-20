@@ -10,7 +10,7 @@ public class Contador {
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);
 		
-        //Se primeiro parâmetro for maior que segundo parâmetro ocorre sinalização.
+        //Se o primeiro parâmetro for maior que segundo parâmetro ocorre sinalização.
 		}catch (ParametrosInvalidosException exception) {
             System.out.println("O segundo parâmetro deve ser maior que o primeiro"); 
 		}
